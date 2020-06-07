@@ -12,15 +12,7 @@ print("You have five seconds to go to the place where you want to start typing.\
 
 time.sleep(5)
 
-while(True):
-    try:
-        for i in range(int(num)):
-            keyboard.type(text)
-            keyboard.press(Key.enter)
-            time.sleep(int(wait))
-
-            if(keyboard.is_pressed('Esc')):
-                sys.exit(0)
-    except:
-        break
-        
+for i in range(int(num)):
+    keyboard.type(text)
+    keyboard.press(Key.enter)
+    time.sleep(int(wait))
