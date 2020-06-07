@@ -15,4 +15,4 @@ time.sleep(5)
 for i in range(int(num)):
     keyboard.type(text)
     keyboard.press(Key.enter)
-    time.sleep(int(wait))
+    time.sleep(float(wait)+0.01)
