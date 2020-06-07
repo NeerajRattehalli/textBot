@@ -8,7 +8,7 @@ text = input("What do you want to spam? ")
 num = input("How many times? ")
 wait = input("How much time do you want to wait between each turn? ")
 
-print("You have five seconds to go to the place where you want to start typing.\n You can quit by pressing escape.")
+print("You have five seconds to go to the place where you want to start typing.")
 
 time.sleep(5)
 
